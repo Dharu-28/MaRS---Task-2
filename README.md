@@ -9,3 +9,16 @@ As I had no prior knowledge about MD10C and it was my first time hands on experi
       Firstly, I defined the connections for the MD10C and my DC motor. Then I defined the outputs and assigned PWM (Pulse Width Modulation) and DIR (direction) to 0 and LOW respectively in the setup part. After setting up, I checked if my DC motor and MD10C works properly with the code. After getting the affirmation, I wrote a function for the Ultrasonic Sensor. Creating a variable named Dist, I assigned the returned value and calculated the distance detected by the sensor. To verify it, I wanted to print it on my serial monitor. Now, for every specific range of distance detected, I wrote an if condition to determine the direction and speed in which the shaft had to rotate. 
 
 # BIBLIOGRAPHY
+1. https://robu.in/wp-content/uploads/2014/12/MD10C-Rev2.0-Users-Manual-Google-Docs.pdf
+2. https://docs.arduino.cc/learn/microcontrollers/analog-output/
+3. https://github.com/CytronTechnologies/Arduino_MD10C
+4. https://www.cytron.io/tutorial/controlling-10a-dc-motor-driver-using-arduino-nano
+5. https://docs.arduino.cc/learn/microcontrollers/analog-output/
+6. https://www.youtube.com/watch?v=CP-qApJEJ0k
+7. https://forum.arduino.cc/t/using-rhino-rmcs-2301-with-rhino-dc-motor-with-planetary-gearbox/374009
+8. https://www.youtube.com/watch?v=kA38GhkUOso
+9. https://forum.arduino.cc/t/arduino-code-to-run-stepper-motor-clockwise-and-anticlockwise-in-a-loop/887489
+10. https://www.youtube.com/watch?v=fPLEncYrl4Q
+11. https://www.instructables.com/Arduino-Control-DC-Motor-via-Bluetooth/
+12. https://forums.basicmicro.com/viewtopic.php?t=861#:~:text=Sign%20Magnitude%20drive%2C%20powers%20one,power%20the%20motor%20%22sees%22.
+13. https://forum.arduino.cc/t/need-the-simple-code-for-turing-clockwise-and-counterclockwise-a-dc-motor/431008/2
